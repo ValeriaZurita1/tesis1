@@ -1,0 +1,65 @@
+/*Hoja de estilos*/
+body{
+	background:#111;
+	margin:0;
+	padding:0;
+	font-family:Helvetica;
+}
+
+span{
+	color:#FFF;
+}
+
+div#content{
+	margin-top:1px;
+}
+
+div#conf{
+	padding-bottom:1px;
+}
+
+.d-none {
+    display: none !important;
+  }
+
+
+
+table{
+	border:1px solid green;
+	box-shadow:1px 1px 8px #00e800,-1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800;
+	-webkit-box-shadow:1px 1px 8px #00e800,-1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800;
+	border-collapse:collapse;
+	position: absolute;
+  	top: 270px;
+  	left: 570px;
+}
+
+td.pieza{
+	/*background:url(http://www.marketingdirecto.com/wp-content/uploads/2012/02/android.jpg);*/
+	/*background:url(https://i.ytimg.com/vi/91l9TpxM5m4/maxresdefault.jpg);*/
+	background-image: url("../../../../../img/familia/primo.png");
+	transition:.3s ease-in-out;
+	-moz-transition:.3s ease-in-out;
+	-webkit-transition:.3s ease-in-out;
+	-o-transition:.3s ease-in-out;
+	cursor:pointer;
+}
+
+div.posic{
+	background:#FFF;
+	padding:-1px;
+	border:-1px solid #00e100;
+	width:150px;
+	position:absolute;
+	/*top:-185px; margin: 300px;*/
+	top: 325px; left: 370px;
+	overflow:auto;
+	min-height:150px; max-height:150px
+}
+
+div#titulo{
+	color:#FFF;
+	font-size:30px;
+	font-weight:bold;
+	text-shadow:1px 1px 8px #00e800, -1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800;
+}

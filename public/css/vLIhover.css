@@ -1,0 +1,139 @@
+/* *{
+	margin: opx;
+	padding: 0px;
+	color: white;
+	font-family: arial;
+} */
+
+.imagen{
+    width: 450px;
+    height: 300px;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button{
+    margin-top: 25px;
+}
+
+div#imagen{
+	width: 279px;
+	height: 300px;
+	margin: 30px;
+	background-image: url("../../../../../img/vocal/i.png");
+}
+
+div#info{
+	position: absolute;
+	overflow: hidden;
+	width: 279px;
+	height: 300px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition: opacity 0.2s;
+	opacity: 0;
+}
+
+.center{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+div#imagen:hover div#info{
+	opacity: 1;
+}
+p#headline{
+	position: absolute;
+	margin-top: 20px;
+	-webkit-transition: margin 0.2s;
+	margin-left: -70px;
+	font-size: 21px;
+
+}
+div#imagen:hover p#headline{
+	margin-left: 70px;
+}
+
+
+p#info3{
+	position: absolute;
+	width: 270px;
+	text-align: center;
+	-webkit-transition: margin 0.3s;
+	-moz-animation:    nombreAnimacion 0.3s infinite; /* Fx 5+ */
+	-o-animation:      nombreAnimacion 0.3s infinite; /* Opera 12+ */
+	margin-top: 310px;
+
+}
+
+div#imagen:hover p#info3{
+margin-top: 70px;
+}
+
+/* otra imagen */
+div#imagen2{
+	width: 279px;
+	height: 300px;
+	margin: 30px;
+	background-image: url("../../../../../img/vocal/LAa.png");
+}
+
+div#infoA{
+	position: absolute;
+	overflow: hidden;
+	width: 279px;
+	height: 300px;
+	background-color: rgba(31, 31, 31, 0.9);
+	-webkit-transition: opacity 0.2s;
+	opacity: 0;
+}
+
+div#imagen2:hover div#infoA{
+	opacity: 1;
+}
+p#headline1{
+	position: absolute;
+	margin-top: 20px;
+	-webkit-transition: margin 0.2s;
+	margin-left: -70px;
+	font-size: 21px;
+
+}
+div#imagen2:hover p#headline1{
+	margin-left: 70px;
+}
+
+
+p#info4{
+	position: absolute;
+	width: 270px;
+	text-align: center;
+	-webkit-transition: margin 0.3s;
+	-moz-animation:    nombreAnimacion 0.3s infinite; /* Fx 5+ */
+	-o-animation:      nombreAnimacion 0.3s infinite; /* Opera 12+ */
+	margin-top: 310px;
+
+}
+
+div#imagen2:hover p#info4{
+margin-top: 70px;
+}
+
+a#btnC{
+	color: black;
+}
+
+button#btnCB{
+color: black;
+}

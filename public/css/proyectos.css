@@ -1,0 +1,273 @@
+/* proyectos section
+   -------------------------------------------------------------------- */
+   #proyectos #proyectos-wrapper { margin-top: 12px; }
+   #proyectos #proyectos-wrapper .col { width: 33.33333%; }
+}
+
+   /* proyectos section
+   --------------------------------------------------------------------- */
+    .reveal-modal {
+      margin-left: -42%;
+      width: 84%;
+   }
+   /* ================================================================== */
+
+   /* O. Proyectos
+
+   /* ================================================================== */
+
+   #proyectos
+      {
+         background: url(../images/patterns/grey.png);
+         padding-top: 156px;
+         padding-bottom: 120px;    
+      }
+   #proyectos .section-head h2 { color: #0f9095; }
+   #proyectos .section-head h3 { color: #0f9095; }
+   #proyectos .section-head u { color: #0f9095; } 
+   #proyectos .section-head p.desc { color: #999999; }
+   #proyectos .section-head dd { font-style: normal; color:#999999;}
+   #proyectos .section-head .intro { color: #A3A3A3; }
+
+   /* Contenido Proyectos  */
+   #proyectos-wrapper { margin-top: 36px; }
+   #proyectos-wrapper .col 
+      {
+         width: 25%;
+         margin-bottom: 36px;
+      }
+
+   .proyectos-item .item-wrap 
+   {
+         align-items: center;
+         background: #fff;
+         overflow: hidden;
+
+         -webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.1);
+         -moz-box-shadow:    0px 1px 1px rgba(50, 50, 50, 0.1);
+         box-shadow:         0px 1px 1px rgba(50, 50, 50, 0.1);
+
+         -webkit-transition: all 0.3s ease-in-out;
+         -moz-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+         -ms-transition: all 0.3s ease-in-out;
+         transition: all 0.3s ease-in-out;
+      }
+   .proyectos-item .item-wrap a { display: block;  }
+   .proyectos-item .proyectos-item-meta { padding: 12px 0; }
+   .proyectos-item .proyectos-item-meta h5 a {
+         font: 13px/24px montserrat-bold, sans-serif;
+         color: #0f9095;
+         margin-left: 7%;
+      }
+      /* on hover */
+   .proyectos-item:hover .item-wrap { background-color: #0f9095; }
+   .proyectos-item:hover h5 a { color: #fff !important; }
+
+      /* Reveal Modal Plugin Styles
+      ---------------------------------------------------*/
+      .reveal-modal-bg {
+         position: fixed;
+         height: 100%;
+         width: 100%;
+         background: #000;
+         background: rgba(0,0,0,.8);
+         z-index: 100;
+         display: none;
+         top: 0;
+         left: 0;
+      }
+      .reveal-modal {
+         visibility: hidden;
+         top: 100px;
+         left: 50%;
+         margin-left: -300px;
+         width: 600px;
+         max-width: 600px;
+         background: #fff;
+         position: absolute;
+         z-index: 101;
+         padding: 0;
+
+         -moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+         -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+         -box-shadow: 0 0 10px rgba(0,0,0,.4);
+      }
+      .reveal-modal img { width: 250px; height: 130px; }
+      .reveal-modal .description-box { padding: 18px 36px; text-align: justify;}
+      .reveal-modal .description-box h4 {
+         font: 15px/24px montserrat-bold, sans-serif;
+         margin-bottom: 18px;
+         color: #0f9095;
+      }
+      .reveal-modal .description-box p {
+         font: 13px/24px opensans-regular, sans-serif;
+         color: #202528;
+         margin-bottom: 18px;
+      }
+      .reveal-modal .description-box .categories {
+         font: 11px/24px opensans-regular, sans-serif;
+         color: #A1A1A1;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         display: block;
+      }
+      .reveal-modal .description-box .categories i {
+         margin-right: 8px;
+      }
+      .reveal-modal .link-box {
+         padding: 18px 36px;
+         background: #111;
+         text-align: left;
+      }
+      .reveal-modal .link-box a {
+         color: #fff;
+         font: 11px/24px opensans-regular, sans-serif;
+         text-transform: uppercase;
+         letter-spacing: 3px;
+         cursor: pointer;
+      }
+      .reveal-modal a:hover { color: #00CCCC; }
+      .reveal-modal a.close-reveal-modal { margin-left: 28px; } 
+
+      /* services section
+   -------------------------------------------------------------------- */
+   #servicios .section-head .col { width: 100%; }
+   #servicios .servicios-wrapper { margin-top: 12px; }
+   #servicios .servicios-wrapper .col { width: 50%; }
+   #servicios .servicios-wrapper .col { margin-bottom: 0; }
+   /* Sección servicios
+   -------------------------------------------------------------------- */
+   #servicios #servicios-wrapper { margin-top: 12px; }
+   #servicios #servicios-wrapper .col { width: 33.3333%; }
+
+    /* servicios section
+   --------------------------------------------------------------------- */
+    .reveal-mod {
+      margin-left: -41%;
+      width: 84%;
+   }
+   #servicios{
+   background: #f5f5f5 url(../images/patterns/grey.png);
+   padding-top: 156px;
+   padding-bottom: 120px;
+}
+
+/* ================================================================== */
+
+/* servicios 
+
+/* ================================================================== */
+#servicios{
+   /*background: #0f9095 url(../images/intro-bg.jp);*/
+   background-image: url(../images/patterns/grey.png);
+   padding-top: 156px;
+   padding-bottom: 120px;
+}
+#servicios .section-head h2 { color: #0f9095; }
+#servicios .section-head p.desc { color: #999999; }
+#servicios .section-head .intro { color: #A3A3A3; }
+
+/* Contenido de servicios */
+#servicios-wrapper { margin-top: 36px; }
+#servicios-wrapper .col {
+   width: 25%;
+   margin-bottom: 36px;
+}
+
+.servicios-item .itemserv-wrap {
+   background: #fff;
+   overflow: hidden;
+
+   -webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.1);
+   -moz-box-shadow:    0px 1px 1px rgba(50, 50, 50, 0.1);
+   box-shadow:         0px 1px 1px rgba(50, 50, 50, 0.1);
+
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+.servicios-item .itemserv-wrap a { display: block; }
+.servicios-item .servicios-itemser-meta { padding: 12px 0; }
+.servicios-item .servicios-itemser-meta h5 a {
+   font: 13px/24px montserrat-bold, sans-serif;
+   color: #0f9095;
+   margin-left: 7%;
+}
+
+/* on hover */
+.servicios-item:hover .itemserv-wrap { background-color: #0f9095; }
+.servicios-item:hover h5 a { color: #fff !important; }
+
+
+/* Reveal Mod Plugin Styles
+---------------------------------------------------*/
+.reveal-mod-bg {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background: #000;
+   background: rgba(0,0,0,.8);
+   z-index: 100;
+   display: none;
+   top: 0;
+   left: 0;
+}
+.reveal-mod {
+   visibility: hidden;
+   top: 100px;
+   left: 50%;
+   margin-left: -300px;
+   width: 600px;
+   max-width: 600px;
+   background: #fff;
+   position: absolute;
+   z-index: 101;
+   padding: 0;
+
+   -moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+   -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+   -box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+.reveal-mod .descripcion-box { padding: 18px 36px; }
+.reveal-mod .descripcion-box h4 {
+   font: 15px/24px montserrat-bold, sans-serif;
+   margin-bottom: 18px;
+   color: #111;
+}
+.reveal-mod .descripcion-box p {
+   font: 13px/24px opensans-regular, sans-serif;
+   color: #A1A1A1;
+   margin-bottom: 18px;
+}
+.reveal-mod .descripcion-box .categoria {
+   font: 11px/24px opensans-regular, sans-serif;
+   color: #A1A1A1;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   display: block;
+}
+.reveal-mod .descripcion-box .categoria i {
+   margin-right: 8px;
+}
+.reveal-mod .link-box {
+   padding: 18px 36px;
+   background: #111;
+   text-align: left;
+}
+.reveal-mod .link-box a {
+   color: #fff;
+   font: 11px/24px opensans-regular, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+.reveal-mod a:hover { color: #00CCCC; }
+.reveal-mod a.close-reveal-modal { margin-left: 28px; }
+
+}
+
+
+

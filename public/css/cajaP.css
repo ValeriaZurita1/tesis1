@@ -1,0 +1,25 @@
+/*Hoja de estilos*/
+.box.box-default {
+    border-top-color: #d2d6de;
+    width: 300;
+    height: 100;
+}
+
+.box.box-Test {
+    border-top-color: #d2d6de;
+    width: 350;
+    height: 250;
+    position: absolute;
+    top: 0px;
+    left: 370px;
+}
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
